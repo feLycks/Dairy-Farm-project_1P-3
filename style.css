@@ -114,21 +114,36 @@ body {
     padding: 20px 120px;
 }
 
+#serv {
+    /* text-align: center; */
+    font-size: 3rem;
+    color: rgb(252, 152, 3);
+}
+
 .service {
     display: flex;
     justify-content: space-between;
 }
 
 .head-cont {
+    color: rgb(252, 152, 3);
     display: inline-flex;
     padding: 15px 0px;
 }
 
 .head-cont i {
     padding: 0px 10px;
+    font-size: 2rem;
+}
+
+.head-cont-tle {
+    color: rgb(252, 152, 3);
+    font-weight: 400;
+    font-size: 1.3rem;
 }
 
 .o-fld p {
+    font-weight: 250;
     padding: 0px 10px;
 }
 
