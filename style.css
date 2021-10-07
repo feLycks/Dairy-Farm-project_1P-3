@@ -21,7 +21,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.2);
+    /* background-color: rgba(0, 0, 0, 0.2); */
 }
 
 .nav {
@@ -232,6 +232,59 @@ body {
     font-size: 1.2rem;
     font-weight: bold;
     letter-spacing: .1em;
+}
+
+
+/* Image gallery  */
+
+.gallery-list {
+    padding: 80px 120px;
+}
+
+.gal-list-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-one {
+    width: 400px;
+    margin-right: 10px;
+}
+
+.item-one :nth-child(4) {
+    margin-right: none;
+}
+
+.item-one img {
+    width: 350px;
+    height: 200px;
+}
+
+.img-detail p {
+    font-weight: 250;
+    padding-top: 10px;
+    /* text-align: center; */
+}
+
+.socio {
+    cursor: pointer;
+    align-items: center;
+    margin: 10px 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socio i:hover {
+    color: var(--color-1);
+}
+
+.read-mr {
+    cursor: pointer;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    background-color: var(--color-1);
 }
 
 
