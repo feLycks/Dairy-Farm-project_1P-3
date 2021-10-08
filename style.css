@@ -131,7 +131,14 @@ body {
     color: white;
 }
 
-.about {
+a {
+    background: none;
+}
+
+.about a {
+    list-style: none;
+    text-decoration: none;
+    outline: none;
     border: none;
     padding: 15px 30px;
     color: white;
@@ -285,6 +292,29 @@ body {
     color: white;
     padding: 5px 15px;
     background-color: var(--color-1);
+}
+
+.quote-body {
+    padding: 80px 200px;
+    text-align: center;
+    align-items: center;
+}
+
+.quote-field {
+    /* justify-content: center; */
+    width: 700px;
+    height: auto;
+    text-align: center;
+    border: 1px solid #aaa;
+    /* display: block; */
+}
+
+.quote-field input {
+    width: 300px;
+}
+
+select {
+    width: 300px;
 }
 
 
